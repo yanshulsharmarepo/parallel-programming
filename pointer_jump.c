@@ -1,5 +1,6 @@
 #include<omp.h>
 #include<stdio.h>
+#include<time.h>
 //author yanshul sharma(iiit guwahati)
  
 int main()
