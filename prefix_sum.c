@@ -43,7 +43,7 @@ start = clock();
           {
                  for(j=pow(2,h);j<=8;j=j+pow(2,h))
                    {
-                    b[h][j-1]=b[h-1][(j/2)-1]+b[h-1][j-1];
+                    b[h][j-1]=b[h-1][(j/2)-1]+b[h-1][j-(int)pow(2,h-1)-1];
                    } 
                  
            }
